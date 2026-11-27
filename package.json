@@ -1,0 +1,17 @@
+{
+  "name": "check-live-die-reviews",
+  "version": "1.0.0",
+  "description": "Check whether Google Maps review links are still alive (headless Chrome, low memory, language independent).",
+  "main": "check.js",
+  "bin": { "check-reviews": "check.js" },
+  "scripts": {
+    "start": "node check.js"
+  },
+  "keywords": ["google-maps", "reviews", "scraper", "playwright", "google-sheets"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "playwright-core": "^1.49.0"
+  }
+}

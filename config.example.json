@@ -1,0 +1,14 @@
+{
+  "spreadsheetId": "YOUR_SPREADSHEET_ID",
+  "sheets": ["review ko ảnh", "review ảnh"],
+  "credentials": "C:/path/to/service-account.json",
+
+  "linksColumn": 1,
+  "statusColumn": "J",
+  "dateColumn": "K",
+
+  "concurrency": 2,
+  "restartEvery": 20,
+  "verdictTimeout": 12000,
+  "minFreeMB": 700
+}
